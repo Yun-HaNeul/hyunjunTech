@@ -1,0 +1,109 @@
+/* 메뉴 */
+#header {
+    width: 100vw;
+    height: 135px;
+    flex-direction: row;
+    padding: 0 50px;
+    background: transparent;
+}
+.logo {
+    margin: 0;
+    width: 54.66px;
+    height: 66px;
+}
+#toggle {
+    width: 30px;
+    height: 50px;
+}
+.contact_btn {
+    display: none;
+}
+#overlay nav {
+    padding: 200px 50px 0 50px;
+    z-index: 300;
+}
+#overlay nav ul {
+    padding: 0;
+}
+.menu_bg {
+    top: 18%;
+    left: 85%;
+}
+
+
+/* section1 */
+.inner {
+    padding: 10% 50px;
+}
+.main > div {
+    left: 0;
+    width: 100vw;
+}
+.sec01 .inner {
+    padding: 51vw 50px 0;
+}
+.sec01 .icon {
+    top: 49vw;
+}
+.sec01 h1 {
+    font-size: 8vw;
+}
+.sec01 span {
+    font-size: 8vw;
+    left: 21%;
+}
+.txt01 .first {
+    padding-right: 52%;
+}
+.sec01 .txt02 {
+    margin-left: 0;
+}
+.txt02 .first {
+    padding-right: 40%;
+}
+/* section3 */
+.sec03 h1, .sec04 h1, .sec05 h1 {
+    padding: 0px 0 30px 5vw;
+}
+.sec04 .bg_title {
+    font-size: 7.5vw;
+}
+.sec04 .left, .sec04 .right {
+    /* justify-content: center; */
+    align-items: center;
+}
+.sec04 .design, .sec04 .pb {
+    justify-content: center;
+}
+.sec04 img {
+    width: 90%;
+    margin-left: 0;
+    margin-bottom: 13%;
+}
+.sec04 .bg_rec01 {
+    top: 40vw;
+    left: 50%;
+}
+.sec04 .bg_rec02 {
+    top: 167vw;
+}
+/* section5 */
+.marquee {
+    margin-top: -20%;
+    margin-bottom: 60px;
+}
+.sec05 {
+    height: auto;
+}
+.track span {
+    font-size: 15vw;
+}
+/* footer */
+footer {
+    left: 0;
+    width: 100vw;
+}
+footer .inner {
+    padding: 60px 50px;
+    margin: unset;
+}

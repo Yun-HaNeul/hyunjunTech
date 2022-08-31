@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <title>CONTACT | HYUNJUNTECH</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+        type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js'></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" type=text/css href="css/contact.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="toggle">
+        </div>
+        <section id="overlay">
+            <div class="menu">
+                <a href="../../index.html" class="logo">현준텍</a>
+                <nav>
+                    <ul>
+                        <li class="menu_name">
+                            <span>01</span>
+                            <a href="../../index.html">MAIN</a>
+                            <!-- <a href="#">Main</a> -->
+                        </li>
+                        <li class="menu_name">
+                            <span>02</span>
+                            <a href="../company/company.html">COMPANY</a>
+                            <!-- <a href="#">Company</a> -->
+                        </li>
+                        <li class="menu_name">
+                            <span>03</span>
+                            <a href="../work/work.html">WORK</a>
+                            <!-- <a href="#">Work</a> -->
+                        </li>
+                        <li class="menu_name">
+                            <span>04</span>
+                            <a href="../porfolio/portfolio.html">PORFOLIO</a>
+                        </li>
+                    </ul>
+                    <ul class="menu_img">
+                        <li>
+                            <div class="menu_bg"></div>
+                            <div class="menu_hover_bg"></div>
+                        </li>
+                        <li>
+                            <div class="menu_hover_bg"></div>
+                        </li>
+                        <li>
+                            <div class="menu_hover_bg"></div>
+                        </li>
+                        <li>
+                            <div class="menu_hover_bg"></div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="contact_btn"><a href="contact.html">프로젝트 문의하기</a></div>
+            </div>
+        </section>
+    </div>
+
+    <div class="contact">
+        <div class="inner">
+            <div class="title">
+                <div class="img">
+                </div>
+                <div class="contact_slogan">
+                    <svg width="1000" height="392" viewBox="0 0 1000 392">
+                        <symbol id="fade-text">
+                            <text x="35%" y="40%" text-anchor="middle">We make</text>
+                            <text x="70%" y="62%" text-anchor="middle">great&nbsp&nbspthings.</text>
+                        </symbol>
+                        <g>
+                            <use class="stroke" xlink:href="#fade-text" />
+                            <use class="fill" xlink:href="#fade-text" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="info" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="2000">
+                <p>창의적인 파트너 현준텍과 프로젝트를 함께 하세요.<br>
+                    검토 후 빠른 시일 내에 연락드리겠습니다.</p>
+            </div>
+
+            <div class="form">
+                <form method="post" id="contact-form">
+                    <div class="sec01" data-aos="fade-up">
+                        <span>1</span>
+                        <h1>프로젝트 유형을 선택해주세요.</h1>
+                        <div class="radio_group">
+                            <div class="radio_btn">
+                                <input id="respon" type="radio" name="radio" value="&#8730;">
+                                <label for="respon">반응형 홈페이지 / 일반 웹</label>
+                            </div>
+                            <div class="radio_btn">
+                                <input id="develope" type="radio" name="radio" value="&#8730;">
+                                <label for="develope">웹 개발 / 앱 개발</label>
+                            </div>
+                            <div class="radio_btn">
+                                <input id="branding" type="radio" name="radio" value="&#8730;">
+                                <label for="branding">브랜딩</label>
+                            </div>
+                            <div class="radio_btn">
+                                <input id="CiBi" type="radio" name="radio" value="&#8730;">
+                                <label for="CiBi">CI / BI</label>
+                            </div>
+                        </div>
+                        <div class="radio_group">
+                            <div class="radio_btn">
+                                <input id="graphic" type="radio" name="radio" value="&#8730;">
+                                <label for="graphic">그래픽디자인</label>
+                            </div>
+                            <div class="radio_btn">
+                                <input id="illu" type="radio" name="radio" value="&#8730;">
+                                <label for="illu">일러스트레이션</label>
+                            </div>
+                            <div class="radio_btn">
+                                <input id="bro" type="radio" name="radio" value="&#8730;">
+                                <label for="bro">브로슈어 / 카탈로그</label>
+                            </div>
+                            <div class="radio_btn">
+                                <input id="ect" type="radio" name="radio" value="&#8730;">
+                                <label for="ect">기타</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec02" data-aos="fade-up">
+                        <span>2</span>
+                        <h1>기본 정보를 입력해주세요.</h1>
+                        <div class="form_content">
+                            <ul class="info_lists">
+                                <li class="info_list">
+                                    <input type="text" name="u_name" id="u_name" class="form_input">
+                                    <label for="u_name">이름</label>
+                                </li>
+                                <li class="info_list">
+                                    <input type="text" name="u_phone" id="u_phone"  class="form_input">
+                                    <label for="u_phone">연락처</label>
+                                </li>
+                                <li class="info_list">
+                                    <input type="text" name="c_name" id="c_name" class="form_input">
+                                    <label for="c_name">기업 / 단체명</label>
+                                </li>
+
+                                <li class="info_list">
+                                    <input type="text" name="u_mail" id="u_mail" autocomplete="off" class="form_input">
+                                    <label for="u_mail">이메일</label>
+                                </li>
+                                <li class="info_list">
+                                    <input type="text" name="url" id="url" class="form_input">
+                                    <label for="url">홈페이지 URL(선택)</label>
+                                </li>
+                                <li class="info_list selectArea">
+                                    <select name="budget" id="budget" class="selectLists form_input">
+                                        <option value=""></option>
+                                        <option value="3000만원 이하" data-select="budget1">3000만원 이하</option>
+                                        <option value="3000만원 ~ 5000만원" data-select="budget2">3000만원 ~ 5000만원</option>
+                                        <option value="5000만원 ~ 1억원" data-select="budget3">5000만원 ~ 1억원</option>
+                                        <option value="1억원 이상" data-select="budget4">1억원 이상</option>
+                                    </select>
+                                    <label for="budget">예산</label>
+                                </li>
+                                <li class="info_list selectArea">
+                                    <select name="period" id="period" class="selectLists form_input">
+                                        <option value=""></option>
+                                        <option value="1개월 이하" data-select="period1">1개월 이하</option>
+                                        <option value="1 ~ 2개월" data-select="period2">1 ~ 2개월</option>
+                                        <option value="3 ~ 5개월" data-select="period3">3 ~ 5개월</option>
+                                        <option value="6개월 이상" data-select="period4">6개월 이상</option>
+                                    </select>
+                                    <label for="period">제작 일정</label>
+                                </li>
+                                <li class="info_list info_textArea">
+                                    <textarea name="detail" id="detail" cols="100" rows="10" class="textarea"></textarea>
+                                    <label for="detail">상세 내용</label>
+                                </li>
+                            </ul>
+                            <div class="form_agree">
+                                <label for="agree" class="chk_box">
+                                    <input type="checkbox" name="agree" id="agree"/>
+                                    <span class="on"></span>
+                                    개인정보 처리방침에 동의합니다 (필수)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <input type="submit" value="submit" id="submits" class="submitBtn">
+                        <div class="line_group_left">
+                            <div class="line_before"></div>
+                            <div class="line_before2"></div>
+                        </div>
+                        <div class="line_group_right">
+                            <div class="line_before3"></div>
+                            <div class="line_before4"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="inner">
+            <div class="footer_menu">
+                <div class="left">
+                    <a href="../company/company.html">company</a>
+                    <a href="../work/work.html">work</a>
+                    <a href="../porfolio/portfolio.html">portfolio</a>
+                </div>
+                <div class="right">
+                    <a class="top" href="#">
+                        <span class="material-icons-outlined north">
+                            north
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                <a href="#">COPYRIGHT 2022 HYUNJUNTECH. ALL RIGHTS RESETVED</a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="../../js/hj.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

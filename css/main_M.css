@@ -1,0 +1,202 @@
+/* 로딩화면 */
+
+.intro h2 {
+    font-size: 10vw;
+}
+
+/* 메뉴 */
+#header {
+    padding: 0 30px;
+}
+.logo {
+    width: 45.66px;
+    height: 55px;
+}
+
+#toggle {
+    width: 25px;
+    height: 40px;
+}
+#toggle.close {
+    height: 25px;
+}
+#overlay nav {
+    padding: 150px 30px 0 30px;
+}
+#overlay nav ul li a {
+    font-size: 13vw;
+    margin-left: 10%;
+}
+#overlay nav ul li span {
+    left: 0;
+    font-size: 15px;
+}
+#overlay nav ul li:hover a {
+    margin-left: 15%;
+}
+#overlay nav ul li:hover span {
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+}
+.menu_bg {
+    width: 100vw;
+    height: 50vh;
+}
+/* common */
+.title {
+    position: relative;
+}
+.sec03 .icon, .sec04 .icon, .sec05 .icon {
+    width: 40px;
+    height: 34px;
+    top: 5.5%;
+    left: -3%;
+}
+/* main */
+.main > div {
+    left: 0;
+    width: 100vw;
+    height: auto;
+}
+.inner {
+    padding: 60px 30px;   
+}
+/* section1 */
+.sec01 .inner {
+    width: 100%;
+    height: 100vh;
+    padding: 0 30px; 
+}
+.sec01 .icon {
+    width: 36px;
+    height: 28px;
+    position: absolute;
+    top: 33%;
+    left: 6%;
+}
+.sec01 .txt01, .sec01 .txt02 {
+    left: 2%;
+    top: 36%;
+}
+.sec01 h1 {
+    font-size: 8vw;
+}
+.txt01 .first {
+    padding-right: 52%;
+}
+.sec01 span {
+    font-size: 8vw;
+    left: 15%;
+    padding: 0 8px;
+}
+.sec01 .txt02 {
+    margin-top: 5px;
+}
+.txt02 .first {
+    padding-right: 42%;
+}
+.sec01 .txt02 span {
+    left: 22%;   
+}
+
+/* section2 */
+.sec02 .inner {
+    width: 100%;
+    height: 100vh;
+}
+.shadows {
+    font-size: 15vw;
+    text-shadow: -1vw 0.2vw 15px #000000;
+    margin-bottom: 40px;
+}
+.sec02 .line01 {
+    left: 33%;
+}
+.sec02 .line02 {
+    right: 33%;
+}
+.sec02 .img_area>img[data-img="01"] {
+    width: 66%;
+    height: 20%;
+    top: 13%;
+}
+.sec02 .img_area>img[data-img="02"] {
+    width: 30%;
+    top: 25%;
+    left: 80%;
+    opacity: .7;
+}
+.sec02 .img_area>img[data-img="03"] {
+    width: 65%;
+    height: 24%;
+    bottom: 30%;
+    left: -10%;
+}
+.sec02 .img_area>img[data-img="04"] {
+    width: 50%;
+    right: -15%;
+    bottom: 23%;
+}
+.sec02 .text_area p {
+    font-size: 4.3vw;
+}
+/* section3 */
+
+.sec03 h1, .sec04 h1, .sec05 h1 {
+    font-size: 13vw;
+    padding: 8% 0 28px 6%;
+}
+.sec03 h2 {
+    margin-bottom: 10vw;
+    font-size: 23px;
+}
+.sec03 ul li{
+    font-size: 7vw;
+    line-height: 16vw;
+}
+
+/* section4 */
+.sec04 .bg_title {
+    font-size: 10vw;
+}
+.sec04 .design, .sec04 .pb {
+    flex-direction: column;
+    margin-top: 22vw;
+}
+.sec04 .design {
+    margin-bottom: 10vw;
+}
+.sec04 img {
+    margin-left: 0;
+    margin-bottom: 40px;
+}
+.sec04 .right {
+    margin-top: 0;
+}
+.sec04 .pb {
+    margin-bottom: 60px;
+}
+.moreBtn {
+    margin-bottom: 60px;
+}
+/* section5 */
+.marquee {
+    margin-top: -60px;
+    margin-bottom: 60px;
+}
+/* footer */
+
+
+.footer_menu a {
+    font-size: 3vw;
+}
+.copyright a {
+    font-size: 3vw;
+}
+.footer_menu .left a {
+    padding: 0 10vw 30px 0;
+}
+.footer_menu .right a {
+    padding: 0 0 30px 0;
+}

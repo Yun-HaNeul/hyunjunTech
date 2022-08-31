@@ -1,0 +1,77 @@
+/* 메뉴 */
+#header {
+    width: 100vw;
+    height: 135px;
+    flex-direction: row;
+    padding: 0 50px;
+    background: transparent;
+}
+.logo {
+    margin: 0;
+    width: 54.66px;
+    height: 66px;
+}
+#toggle {
+    width: 30px;
+    height: 50px;
+}
+.contact_btn {
+    display: none;
+}
+#overlay nav {
+    padding: 200px 50px 0 50px;
+    z-index: 300;
+}
+#overlay nav ul {
+    padding: 0;
+}
+.menu_bg {
+    top: 18%;
+    left: 85%;
+}
+/* section 1 */
+.inner {
+    padding: 10% 50px;
+}
+main > div.section {
+    left: 0;
+    width: 100vw;
+}
+.sec01 {
+    padding: 140px 0 350px 0;
+}
+.sec01 .title {
+    right: unset;
+}
+.sec01 .line01 {
+    width: 50%;
+    right: 0;
+    top: 75%;
+}
+.sec01 .title h1 {
+    font-size: 7vw;
+}
+.sec01 .line02 {
+    width: 23%;
+}
+.sec02 .cont {
+    flex-wrap : wrap;
+    gap: 2vw;
+}
+.sec02 .cont .title {
+    font-size: 8vw;
+}
+.sec02 .cont .info p {
+    font-size: 22px;
+}
+.sec03 .text_area {
+    padding: 0 0 300px;
+    font-size: 5vw;
+}
+.sec03 .text_area p::before {
+    display: none;
+}
+.sec03 .box {
+    padding: 0 50px;
+    margin-bottom: 19vw;
+}
